@@ -323,7 +323,7 @@ export default function Home() {
                       {
                         <ol>
                           {collection_results.map((add) => (
-                            <li key={person.id}>
+                            <li key={add.id}>
                               <a
                                 href={
                                   "https://rinkeby.etherscan.io/address/" + add
