@@ -291,7 +291,7 @@ export default function Home() {
             {active ? (
               <div>
                 <p>
-                  to make it simpler i've already uploaded some images into
+                  to make it simpler i have already uploaded some images into
                   IPFS, one of them randomly
                   <br /> will be minted and you can see the link of the token on
                   opensea
@@ -323,7 +323,7 @@ export default function Home() {
                       {
                         <ol>
                           {collection_results.map((add) => (
-                            <li>
+                            <li key={person.id}>
                               <a
                                 href={
                                   "https://rinkeby.etherscan.io/address/" + add
